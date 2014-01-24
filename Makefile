@@ -59,8 +59,7 @@ SRCSASM = \
 ######################################
 PERIPHLIB_SOURCES = \
   stm32f10x_gpio.c \
-  stm32f10x_rcc.c \
-  stm32f10x_fsmc.c
+  stm32f10x_rcc.c
  
 #######################################
 # binaries

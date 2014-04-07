@@ -257,7 +257,7 @@ static void _XorPixel(GUI_DEVICE *pDevice, int x, int y)
     LCD_PIXELINDEX color;
     LCD_PIXELINDEX mask;
     color = _GetPixelIndex(pDevice, x, y);
-    mask  = pDevice->pColorConvAPI->pfGetIndexMask();
+    mask = pDevice->pColorConvAPI->pfGetIndexMask();
     _SetPixelIndex(pDevice, x, y, color ^ mask);
 }
 
